@@ -1,0 +1,4 @@
+/* INSERT */
+	$sql = "INSERT INTO `my_tbl`(`Name`,`Subject`,`Class`) VALUES ('Sobuj','English','Nine')";
+	$stmt= $pdo->prepare($sql);
+	$stmt->execute();
