@@ -1,18 +1,5 @@
 <?php 
 
-
-	$host = 'localhost';
-	$db   = 'test';
-	$user = 'root';
-	$pass = '';
-
-	$dsn = "mysql:host=$host;dbname=$db";
-	
-	try {
-	 $pdo = new PDO($dsn, $user, $pass);
-	} catch (PDOException $e) {
-	 throw new PDOException($e->getMessage());
-	}
 	//$stmt = $pdo->query("SELECT * FROM my_tbl");
 	//$user = $stmt->fetch();
 
